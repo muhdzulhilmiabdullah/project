@@ -11,6 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {  return view('welcome');  })->name('welcome'); //welcome page
+
+
+//crud project
+Route::get('/crud', 'Crud\CrudController@Index')->name('crudIndex');
+
+//rekotbajet project
+Route::get('/rekotBajet', function () {  return view('rekot.rekotBajet'); })->name('rekotBajetIndex'); //RekotBajet page
+
+

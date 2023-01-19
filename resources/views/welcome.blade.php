@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>xulTek.com</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,17 +81,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    XulTek.com
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ route('crudIndex') }}">CRUD</a>
+                    <a href="{{ route('rekotBajetIndex') }}">RekotBajet</a>
+                    <a href="https://laravel-news.com">Project1</a>
+                    <a href="https://blog.laravel.com">Project2</a>
+                    <a href="https://www.instagram.com/muhdzulhilmiabdullah" target="_blank">IG</a>
+                    <a href="https://github.com/muhdzulhilmiabdullah"target="_blank" >GitHub</a>
                 </div>
             </div>
         </div>
